@@ -1,0 +1,21 @@
+{
+  "authors": [
+    "Adrian de la Rosa <adrian@delarosab.me>"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#2.0-preview"
+  },
+  "devDependencies": {
+    "iron-component-page": "2.0-preview",
+    "paper-button": "PolymerElements/paper-button#2.0-preview"
+  },
+  "description": "An element just accessible to screen readers.",
+  "keywords": [
+    "screen reader"
+  ],
+  "license": "MIT",
+  "main": "pw-screen-reader.html",
+  "name": "pw-screen-reader",
+  "private": true,
+  "version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+<link href="../polymer/polymer-element.html"
+  rel="import">
+
+<!--
+An element providing cookie management.
+
+Example:
+
+    <pw-screen-reader></pw-screen-reader>
+
+@group PolyWhat Elements
+@element pw-screen-reader
+@demo demo/index.html
+-->
+<dom-module id="pw-screen-reader">
+  <template>
+    <style>
+      :host {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+    </style>
+    <slot></slot>
+  </template>
+  <script src="pw-screen-reader.js"></script>
+</dom-module>
